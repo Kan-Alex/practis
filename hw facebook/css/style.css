@@ -1,0 +1,184 @@
+* {
+    box-sizing: border-box;
+}
+ul {
+    padding-inline-start: 0px;
+    margin-top: 30px;
+    margin-bottom: 0px;
+    display: flex;
+    align-items: flex-start;
+}
+ul li { 
+    list-style: none;
+    margin-right: 10px;
+}
+h1 {
+    color: #1877f2;
+    font-size: 40px;
+    padding: 15px 5px;
+    margin: 0px;
+}
+h2 {
+    font-size: 28px;
+    font-weight: normal;
+    line-height: 32px;
+    margin: 0px;
+}
+p {
+    font-size: 15px;
+    line-height: 24px;
+    margin: 0px;
+}
+a {
+    text-decoration: none;
+    color: none;
+}
+body {
+    font-family: Helvetica, Arial, sans-serif;
+    margin: 0px;
+}
+.page {
+    display: flex;
+    background-color: #f0f2f5;
+}
+.section {
+    width: 50%;
+    padding: 50px;
+}
+.container {
+    max-width: 400px;
+    margin: 0 auto;
+}
+.account {
+    width: 160px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    border: 0.1px solid #cfcfcf;
+    position: relative;
+}
+.foto-ac {
+    height: 160px;
+    width: 160px;
+    border-top-left-radius: 10px; 
+    border-top-right-radius: 10px; 
+}
+.name-ac {
+    padding: 10px;
+    text-align: center;
+    color: #707070;
+    font-size: 18px;
+}
+.icon-x {
+    height: 20px;
+    width: 20px;
+    background-color: #86868628;
+    border-radius: 50%;
+    text-align: center;
+    font-size: 15px;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+}
+.icon-notification {
+    height: 25px;
+    width: 25px;
+    background-color: #ff0000;
+    border-radius: 50%;
+    text-align: center;
+    font-size: 13px;
+    position: absolute;   
+    right: -4px;
+    top: -4px;
+    line-height: 25px;
+}
+.icon-plus {
+    margin: auto;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    font-size: 40px;
+    text-align: center;
+    line-height: 40px;
+    position: relative;
+    top: 60px;
+}
+.bg-new-ac {
+    height: 160px;
+    background-color: #f5f6f7;
+    border-top-left-radius: 10px; 
+    border-top-right-radius: 10px; 
+}
+.card {
+    max-width: 385px;
+    padding: 20px 15px;
+    margin: 80px auto 0;
+    background-color: rgb(255, 255, 255);
+    border: rgb(0, 0, 0) ;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px #c1c1c1a6;
+}
+.input {
+    width: 350px;
+    margin: 5px;
+    padding: 12px;
+    border-radius: 5px;
+    border: 0.5px solid rgb(228, 228, 228);
+    background-color: rgb(255, 255, 255);
+    font-size: 18px;
+    
+}
+.button {
+    width: 350px;
+    margin: 5px;
+    padding: 9px;
+    border-radius: 5px;
+    border: none;
+    font-size: 25px;
+    font-weight: bold;
+}
+.link-pw {
+    margin-top: 15px;
+    text-align: center;
+}
+.link-new-ac {
+    border-radius: 5px;
+    background-color: rgb(48, 180, 48);
+    width: 180px;
+    text-align: center;
+    padding: 12px;
+    margin: 0 auto;
+    font-size: 20px;
+    font-weight: bold;
+}
+.block-text {
+    margin: 10px auto;
+    font-size: 15px;
+    text-align: center;
+    width: 360px;
+}
+.line {
+    border-bottom: 1px solid #d6d6d6;
+    margin: 20px 5px;
+}
+.link-new-ac-mini {
+    font-weight: bold;
+    color: black;
+}
+.footer {
+    width: 60%;
+    margin: 50px auto;
+} 
+.logo-fb-mini {
+    font-size: 12px;
+    color: rgb(78, 78, 78);
+    margin-top: 20px;
+}
+.color-wite {
+    color: #ffffff;
+}
+.color-bl {
+    color: #1877f2;
+}
+.bg-bl {
+    background-color: #1877f2;
+}

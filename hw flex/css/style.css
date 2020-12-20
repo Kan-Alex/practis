@@ -1,0 +1,62 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+.rows {
+    flex-direction: column;
+}
+.container {
+    display: flex;
+    justify-content: center;
+}
+.block {
+    width: 25%;
+    height: 200px;
+    margin: 5px;
+    text-align: center;
+    color: #ffffff;
+}
+.bg-1 {
+    background-color: rgb(255, 60, 60);
+}
+.bg-2 {
+    background-color: rgb(255, 83, 60);
+}
+.bg-3 {
+    background-color: rgb(255, 105, 60);
+}
+.bg-4 {
+    background-color: rgb(255, 138, 60);
+}
+.bg-5 {
+    background-color: rgb(255, 180, 60);
+}
+.bg-6 {
+    background-color: rgb(255, 226, 60);
+}
+.bg-7 {
+    background-color: rgb(255, 252, 60);
+}
+.bg-8 {
+    background-color: rgb(196, 255, 60);
+}
+.bg-9 {
+    background-color: rgb(105, 255, 60);
+}
+.bg-10 {
+    background-color: rgb(60, 255, 135);
+}
+.bg-11 {
+    background-color: rgb(60, 255, 239);
+}
+.bg-12 {
+    background-color: rgb(60, 135, 255);
+}
+.bg-13 {
+    background-color: rgb(60, 73, 255);
+}
+.bg-14 {
+    background-color: rgb(177, 60, 255);
+}
+
+
