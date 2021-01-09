@@ -5,7 +5,6 @@ body {
     background: #eeeeee;
     font-family: Arial, Helvetica, sans-serif;
     margin: 0;
-    padding: 50px 0;
 }
 a {
     text-decoration: none;
@@ -21,16 +20,18 @@ h1 {
     text-shadow: 0px 3px 3px rgba(0, 0, 0, 0.4);
 }
 .page {
-    width: 1440px;
+    max-width:  1440px;
     margin: 0 auto;
+    padding: 50px;
 }
 .container {
     width: 50%;
-    height: 900px;
+    min-width: 400px;
+    min-height: 900px;
     padding: 50px;
 }
 .block {
-    width: 55%;
+    min-width: 300px;
     margin: 0 auto;
 }
 .center {
@@ -45,6 +46,7 @@ h1 {
 }
 .bg-img {
     background-image: url(../img/Photobg.png);
+    background-size: cover;
 }
 .bg-blue {
     background: #29B1CC;
@@ -109,6 +111,7 @@ input::-webkit-input-placeholder {
     border-radius: 25px;
     padding: 10px 45px;
     margin: 15px 2px;
+    cursor: pointer;
 }
 .icon1 {
     left: 13px;
@@ -125,4 +128,7 @@ input::-webkit-input-placeholder {
 .dot {
     font-size: 35px;
     bottom: 3px;
+}
+* {
+    outline: none;
 }
