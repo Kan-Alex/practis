@@ -1,5 +1,6 @@
 * {
     box-sizing: border-box;
+    outline: none;
 }
 body {
     background: #eeeeee;
@@ -24,18 +25,23 @@ h1 {
     margin: 0 auto;
     padding: 50px;
 }
-.container {
+.container-first {
     width: 50%;
-    min-width: 400px;
+    min-height: 900px;
+    padding: 50px;
+}
+.container-last {
+    width: 50%;
     min-height: 900px;
     padding: 50px;
 }
 .block {
-    min-width: 300px;
     margin: 0 auto;
 }
 .center {
     justify-content: center;
+}
+.column {
     flex-direction: column;
 }
 .margin {
@@ -47,6 +53,9 @@ h1 {
 .bg-img {
     background-image: url(../img/Photobg.png);
     background-size: cover;
+}
+.img {
+    width: 60px;
 }
 .bg-blue {
     background: #29B1CC;
@@ -109,7 +118,7 @@ input::-webkit-input-placeholder {
     width: 45%;
     border: 2px solid #29B1CC;
     border-radius: 25px;
-    padding: 10px 45px;
+    padding: 10px 35px;
     margin: 15px 2px;
     cursor: pointer;
 }
@@ -129,6 +138,64 @@ input::-webkit-input-placeholder {
     font-size: 35px;
     bottom: 3px;
 }
-* {
-    outline: none;
+
+@media screen 
+and (min-width: 900px) 
+and (max-width: 1100px) {
+    body div .container-first {
+        width: 70%;
+    }
+    body div .container-last {
+        width: 30%;
+    }
+}
+@media screen 
+and (min-width: 700px) 
+and (max-width: 899px) {
+    body div .container-first {
+        width: 80%;
+    }
+    body div .container-last {
+        width: 20%;
+        padding: 40px;
+    }
+    body div .container-last div {
+        flex-direction: column;
+        margin: 10px 0 0 ;
+    }
+}
+@media screen 
+and (min-width: 420px) 
+and (max-width: 699px) {
+    body .page{
+        flex-direction: column;
+        padding: 20px;
+    }
+    body div .container-first {
+        width: 100%;
+        min-height: 750px;
+    }
+    body div .container-last {
+        width: 100%;
+        min-height: 100px;
+        padding: 20px;
+    }
+}
+@media screen 
+and (min-width: 320px)
+and (max-width: 419px) {
+    body .page{
+        flex-direction: column;
+        padding: 0;
+    }
+    body div .container-first {
+        width: 100%;
+        padding: 20px;
+        min-height: 600px;
+    }
+    body div .container-last {
+        width: 100%;
+        min-height: 100px;
+        padding: 20px;
+    }
 }
